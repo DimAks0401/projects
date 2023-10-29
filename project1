@@ -12,4 +12,6 @@ while True:
     if word in Words_dict.keys():
         print(Words_dict[word])
     else:
-        print("Этого слова нет")
+        print("Этого слова нет. Надо это слово добавить в словарь")
+        q = str(input("Какое значение этого слова?"))
+        Words_dict[word] = q
